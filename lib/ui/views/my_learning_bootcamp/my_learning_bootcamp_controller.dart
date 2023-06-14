@@ -42,10 +42,10 @@ class MyLearningBootcampController extends GetxController {
 
   void onJoinZoom() async {
     String zoomUrl =
-        'https://us04web.zoom.us/j/76804986365?pwd=IWO3vndG8bB12QhSRlADM6qdgO1zaj.1';
+        'https://us04web.zoom.us/j/71305811930?pwd=p3LjDAcqMNoUuz1pbohynYa9PTGV1y.1';
     Uri uri = Uri.parse(zoomUrl);
     if (await canLaunchUrl(uri)) {
-      await launchUrl(uri);
+      await launchUrl(uri, mode: LaunchMode.externalApplication);
     } else {
       throw 'Could not launch $uri';
     }
