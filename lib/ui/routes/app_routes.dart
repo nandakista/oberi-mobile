@@ -8,6 +8,8 @@ import 'package:oberi_mobile/ui/views/history_transaction/history_transaction_ro
 import 'package:oberi_mobile/ui/views/home/home_route.dart';
 import 'package:oberi_mobile/ui/views/intro/intro_route.dart';
 import 'package:oberi_mobile/ui/views/login/login_route.dart';
+import 'package:oberi_mobile/ui/views/login_google/login_google_route.dart';
+import 'package:oberi_mobile/ui/views/login_google_confirm/login_google_confirm_route.dart';
 import 'package:oberi_mobile/ui/views/main_nav/main_nav_route.dart';
 import 'package:oberi_mobile/ui/views/my_certificate/my_certificate_route.dart';
 import 'package:oberi_mobile/ui/views/my_learning/my_learning_route.dart';
@@ -44,6 +46,8 @@ class AppPages {
     ...faqRoute,
     ...historyTransactionRoute,
     ...loginRoute,
+    ...loginGoogleRoute,
+    ...loginGoogleConfirmRoute,
     ...mainNavRoute,
     ...myCertificateRoute,
     ...myLearningRoute,

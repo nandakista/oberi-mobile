@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:oberi_mobile/core/helper/validator_helper.dart';
 import 'package:oberi_mobile/core/themes/app_colors.dart';
 import 'package:oberi_mobile/core/themes/app_style.dart';
+import 'package:oberi_mobile/ui/views/login_google/login_google_view.dart';
 import 'package:oberi_mobile/ui/views/register/register_view.dart';
 import 'package:oberi_mobile/ui/widgets/colored_status_bar.dart';
 import 'package:oberi_mobile/ui/widgets/keyboard_dismisser.dart';
@@ -140,6 +141,7 @@ class LoginView extends GetView<LoginController> {
                             outlineMode: true,
                             onPressed: () {
                               FocusScope.of(context).unfocus();
+                              Get.toNamed(LoginGoogleView.route);
                             },
                             text: 'Continue with Account Google',
                             iconWidget:
