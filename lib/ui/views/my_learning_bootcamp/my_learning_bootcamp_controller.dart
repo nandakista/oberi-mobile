@@ -1,4 +1,5 @@
 import 'package:get/get.dart';
+import 'package:oberi_mobile/link_zoom.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class MyLearningBootcampController extends GetxController {
@@ -41,8 +42,7 @@ class MyLearningBootcampController extends GetxController {
   }
 
   void onJoinZoom() async {
-    String zoomUrl =
-        'https://us04web.zoom.us/j/71305811930?pwd=p3LjDAcqMNoUuz1pbohynYa9PTGV1y.1';
+    String zoomUrl = linkZoom;
     Uri uri = Uri.parse(zoomUrl);
     if (await canLaunchUrl(uri)) {
       await launchUrl(uri, mode: LaunchMode.externalApplication);
