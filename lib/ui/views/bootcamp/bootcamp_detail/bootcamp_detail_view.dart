@@ -28,11 +28,11 @@ class BootcampDetailView extends GetView<BootcampDetailController> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             SkyImage(
-              src: controller.args['banner'],
+              src: 'assets/images/oberi_bootcamp.png',
               width: double.infinity,
-              height: 132,
+              height: 172,
               borderRadius: BorderRadius.circular(9),
-              fit: BoxFit.cover,
+              fit: BoxFit.contain,
             ),
             const SizedBox(height: 16),
             Text(

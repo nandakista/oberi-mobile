@@ -1,6 +1,7 @@
 import 'package:collection_picker/collection_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:oberi_mobile/asset_management.dart';
 import 'package:oberi_mobile/core/themes/app_colors.dart';
 import 'package:oberi_mobile/core/themes/app_style.dart';
 import 'package:oberi_mobile/ui/views/home/home_controller.dart';
@@ -18,7 +19,7 @@ class HomeHeader extends GetView<HomeController> {
           child: Row(
             children: [
               SkyImage(
-                src: 'https://i.pravatar.cc/300?u=a12as332.jpg',
+                src: LocalAsset.profile,
                 height: 42,
                 width: 42,
                 borderRadius: BorderRadius.circular(42),

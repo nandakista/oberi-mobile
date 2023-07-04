@@ -25,7 +25,7 @@ class MyLearningWebinarView extends GetView<MyLearningWebinarController> {
             SkyImage(
               src: controller.webinarArgs['banner'],
               width: double.infinity,
-              height: 132,
+              height: 172,
               borderRadius: BorderRadius.circular(4),
               fit: BoxFit.cover,
             ),

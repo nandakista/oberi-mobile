@@ -1,3 +1,5 @@
+import 'package:oberi_mobile/asset_management.dart';
+
 final myLearningBootcampDummyData = [
   {
     'status': 'Berlangsung',
@@ -7,7 +9,8 @@ final myLearningBootcampDummyData = [
     'completed_chapter': 5,
     'chapter_count': 10,
     'banner': 'assets/images/oberi_bootcamp.png',
-    'image': 'https://i.pravatar.cc/300?u=a042581f4e2',
+    // 'image': 'https://i.pravatar.cc/300?u=a042581f4e2',
+    'image': LocalAsset.myLearningBootcamp1,
     'date': DateTime.now().add(const Duration(days: 18)),
     'mentor': 'Marilyn Workman',
     'detail': 'Pada acara ini peserta terlibat aktif berdiskusi dan bermain '
@@ -43,7 +46,8 @@ final myLearningBootcampDummyData = [
           {
             'title': 'Chapter 1',
             'description': 'Basic Public Speaking',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -70,7 +74,8 @@ final myLearningBootcampDummyData = [
           {
             'title': 'Chapter 2',
             'description': 'Basic public speaking in  working area',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -98,7 +103,8 @@ final myLearningBootcampDummyData = [
             'title': 'Chapter 3',
             'description':
                 'Basic material Things that must be considered in public speaking',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Artikel',
@@ -127,7 +133,8 @@ final myLearningBootcampDummyData = [
             'title': 'Chapter 1',
             'status': 'progress',
             'description': 'Basic Public Speaking',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'status': 'pretest',
@@ -156,7 +163,8 @@ final myLearningBootcampDummyData = [
           {
             'title': 'Chapter 2',
             'description': 'Basic public speaking in  working area',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -184,7 +192,8 @@ final myLearningBootcampDummyData = [
             'title': 'Chapter 3',
             'description':
                 'Basic material Things that must be considered in public speaking',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Artikel',
@@ -212,7 +221,8 @@ final myLearningBootcampDummyData = [
           {
             'title': 'Chapter 4',
             'description': 'Basic Public Speaking',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -239,7 +249,8 @@ final myLearningBootcampDummyData = [
           {
             'title': 'Chapter 5',
             'description': 'Basic public speaking in  working area',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -267,7 +278,8 @@ final myLearningBootcampDummyData = [
             'title': 'Chapter 6',
             'description':
                 'Basic material Things that must be considered in public speaking',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -294,7 +306,8 @@ final myLearningBootcampDummyData = [
           {
             'title': 'Chapter 7',
             'description': 'Learn advanced speech techniques and practice',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -327,7 +340,8 @@ final myLearningBootcampDummyData = [
           {
             'title': 'Chapter 8',
             'description': 'Public speaking in debate',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -354,7 +368,8 @@ final myLearningBootcampDummyData = [
           {
             'title': 'Chapter 9',
             'description': 'Public speaking as MC',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -382,7 +397,8 @@ final myLearningBootcampDummyData = [
             'title': 'Chapter 10',
             'description':
                 'Final Project : Make your own project as public speaker',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -418,7 +434,8 @@ final myLearningBootcampDummyData = [
     'completed_chapter': 2,
     'chapter_count': 10,
     'banner': 'assets/images/oberi_bootcamp.png',
-    'image': 'https://i.pravatar.cc/300?u=a02581fe2',
+    'image': LocalAsset.myLearningBootcamp2,
+    // 'image': 'https://i.pravatar.cc/300?u=a02581fe2',
     'date': DateTime.now().add(const Duration(days: 18)),
     'mentor': 'Marilyn Workman',
     'detail': 'Pada acara ini peserta terlibat aktif berdiskusi dan bermain '
@@ -455,7 +472,8 @@ final myLearningBootcampDummyData = [
             'status': 'upload_task',
             'title': 'Chapter 1',
             'description': 'Basic Public Speaking',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -482,7 +500,8 @@ final myLearningBootcampDummyData = [
           {
             'title': 'Chapter 2',
             'description': 'Basic public speaking in  working area',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -510,7 +529,8 @@ final myLearningBootcampDummyData = [
             'title': 'Chapter 3',
             'description':
                 'Basic material Things that must be considered in public speaking',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Artikel',
@@ -538,7 +558,8 @@ final myLearningBootcampDummyData = [
           {
             'title': 'Chapter 1',
             'description': 'Essential material for public speaking',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -567,7 +588,8 @@ final myLearningBootcampDummyData = [
             'title': 'Chapter 2',
             'description':
                 'The primary material of public speaking in the world of work',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -595,7 +617,8 @@ final myLearningBootcampDummyData = [
             'title': 'Chapter 3',
             'description':
                 'Basic material Things that must be considered in public speaking',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -628,7 +651,8 @@ final myLearningBootcampDummyData = [
           {
             'title': 'Chapter 4',
             'description': 'The importance of public speaking',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -743,7 +767,8 @@ final myLearningBootcampDummyData = [
           {
             'title': 'Chapter 8',
             'description': 'Public speaking in debate',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -770,7 +795,8 @@ final myLearningBootcampDummyData = [
           {
             'title': 'Chapter 9',
             'description': 'Public speaking as MC',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -798,7 +824,8 @@ final myLearningBootcampDummyData = [
             'title': 'Chapter 10',
             'description':
                 'Final Project : Make your own project as public speaker',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -834,7 +861,8 @@ final myLearningBootcampDummyData = [
     'completed_chapter': 3,
     'chapter_count': 10,
     'banner': 'assets/images/oberi_bootcamp.png',
-    'image': 'https://i.pravatar.cc/300?u=a0421f4e2',
+    'image': LocalAsset.myLearningBootcamp3,
+    // 'image': 'https://i.pravatar.cc/300?u=a0421f4e2',
     'date': DateTime.now().add(const Duration(days: 18)),
     'mentor': 'Marilyn Workman',
     'detail': 'Pada acara ini peserta terlibat aktif berdiskusi dan bermain '
@@ -870,7 +898,8 @@ final myLearningBootcampDummyData = [
           {
             'title': 'Chapter 1',
             'description': 'Basic Public Speaking',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -897,7 +926,8 @@ final myLearningBootcampDummyData = [
           {
             'title': 'Chapter 2',
             'description': 'Basic public speaking in  working area',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -925,7 +955,8 @@ final myLearningBootcampDummyData = [
             'title': 'Chapter 3',
             'description':
                 'Basic material Things that must be considered in public speaking',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Artikel',
@@ -953,7 +984,8 @@ final myLearningBootcampDummyData = [
           {
             'title': 'Chapter 1',
             'description': 'Essential material for public speaking',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -982,7 +1014,8 @@ final myLearningBootcampDummyData = [
             'title': 'Chapter 2',
             'description':
                 'The primary material of public speaking in the world of work',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -1010,7 +1043,8 @@ final myLearningBootcampDummyData = [
             'title': 'Chapter 3',
             'description':
                 'Basic material Things that must be considered in public speaking',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -1043,7 +1077,8 @@ final myLearningBootcampDummyData = [
           {
             'title': 'Chapter 4',
             'description': 'The importance of public speaking',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -1071,7 +1106,8 @@ final myLearningBootcampDummyData = [
             'title': 'Chapter 5',
             'description':
                 'How to craft powerful stories and influences audiences',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -1098,7 +1134,8 @@ final myLearningBootcampDummyData = [
           {
             'title': 'Chapter 6',
             'description': 'Understand of public speaking',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -1125,7 +1162,8 @@ final myLearningBootcampDummyData = [
           {
             'title': 'Chapter 7',
             'description': 'Learn advanced speech techniques and practice',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -1158,7 +1196,8 @@ final myLearningBootcampDummyData = [
           {
             'title': 'Chapter 8',
             'description': 'Public speaking in debate',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -1185,7 +1224,8 @@ final myLearningBootcampDummyData = [
           {
             'title': 'Chapter 9',
             'description': 'Public speaking as MC',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',
@@ -1213,7 +1253,8 @@ final myLearningBootcampDummyData = [
             'title': 'Chapter 10',
             'description':
                 'Final Project : Make your own project as public speaker',
-            'image': 'https://picsum.photos/200/300.jpg',
+            // 'image': 'https://picsum.photos/200/300.jpg',
+            'image': LocalAsset.materiStep5,
             'chapters': [
               {
                 'title': 'Pre Test',

@@ -26,7 +26,8 @@ class WebinarView extends GetView<WebinarController> {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text(
-              (controller.webinarArgs['price'] as int).currencyFormat(symbol: 'Rp '),
+              (controller.webinarArgs['price'] as int)
+                  .currencyFormat(symbol: 'Rp '),
               style: AppStyle.subtitle4.copyWith(
                   color: AppColors.primary, fontWeight: FontWeight.w700),
             ),
@@ -46,9 +47,9 @@ class WebinarView extends GetView<WebinarController> {
             SkyImage(
               src: controller.webinarArgs['banner'],
               width: double.infinity,
-              height: 132,
+              height: 172,
               borderRadius: BorderRadius.circular(4),
-              fit: BoxFit.cover,
+              fit: BoxFit.fill,
             ),
             const SizedBox(height: 12),
             Text(
@@ -61,7 +62,9 @@ class WebinarView extends GetView<WebinarController> {
                 const SkyImage(src: 'assets/images/ic_location.svg'),
                 const SizedBox(width: 8),
                 Text(
-                  (controller.webinarArgs['location'] as String).capitalize.toString(),
+                  (controller.webinarArgs['location'] as String)
+                      .capitalize
+                      .toString(),
                   style: AppStyle.body2,
                 ),
               ],
@@ -72,7 +75,8 @@ class WebinarView extends GetView<WebinarController> {
                 const SkyImage(src: 'assets/images/ic_calender.svg'),
                 const SizedBox(width: 8),
                 Text(
-                  DateFormat('dd MMM yyy').format(controller.webinarArgs['date']),
+                  DateFormat('dd MMM yyy')
+                      .format(controller.webinarArgs['date']),
                   style: AppStyle.body2,
                 ),
               ],

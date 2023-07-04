@@ -53,7 +53,7 @@ class FreeCourseSublist extends StatelessWidget {
                     height: 56,
                     width: 56,
                     fit: (item['type'] == 'bootcamp')
-                        ? BoxFit.contain
+                        ? BoxFit.cover
                         : BoxFit.cover,
                     borderRadius: BorderRadius.circular(6),
                   ),

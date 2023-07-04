@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:oberi_mobile/asset_management.dart';
 import 'package:oberi_mobile/core/themes/app_style.dart';
 import 'package:oberi_mobile/ui/views/account/account_controller.dart';
 import 'package:oberi_mobile/ui/views/account/widgets/menu_item.dart';
@@ -25,7 +26,7 @@ class AccountView extends GetView<AccountController> {
           children: [
             Center(
               child: SkyImage(
-                src: 'https://i.pravatar.cc/300?u=a12as332.jpg',
+                src: LocalAsset.profile,
                 height: 80,
                 width: 80,
                 borderRadius: BorderRadius.circular(80),

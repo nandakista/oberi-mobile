@@ -57,9 +57,9 @@ class MyLearningBootcampView extends GetView<MyLearningBootcampController> {
             SkyImage(
               src: controller.bootcampArgs['banner'],
               width: double.infinity,
-              height: 132,
+              height: 172,
               borderRadius: BorderRadius.circular(9),
-              fit: BoxFit.cover,
+              fit: BoxFit.fill,
             ),
             const SizedBox(height: 16),
             Row(
